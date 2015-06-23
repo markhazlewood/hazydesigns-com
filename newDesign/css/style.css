@@ -1,0 +1,72 @@
+body
+{
+	
+}
+
+#home
+{
+	background: url(../img/window_office_big.jpg) no-repeat fixed;
+	background-size: 100% 100%;
+	min-height: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+}
+
+#home article
+{
+	height: 458px;
+	position: absolute;
+	text-align: center;
+	top: 150px;
+	width: 100%;
+}
+
+#workTop
+{
+	background: url(../img/RIT_001_blurred.jpg) 100% 100% no-repeat fixed;
+	background-size: 100% 100%;
+	min-height: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+}
+
+#workTop article
+{
+	color: white;
+	height: 458px;
+	position: absolute;
+	text-align: center;
+	top: 150px;
+	width: 100%;
+}
+
+#about
+{
+	background: red 50% 0 no-repeat;
+	min-height: 1000px;
+	height: 1000px;
+	width: 100%;
+	max-width: 1920px;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	
+	-webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+}
+
+#about article
+{
+	color: white;
+	height: 458px;
+	position: absolute;
+	text-align: center;
+	top: 150px;
+	width: 100%;
+}

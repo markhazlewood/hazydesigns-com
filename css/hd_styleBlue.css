@@ -1,0 +1,341 @@
+body 
+{ 
+	margin: 0px 0; 
+	padding: 0;
+	background: url('/images/USE_THIS.png') repeat-x;
+	line-height: 20px;
+	font-size: 14px;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: 550;
+	text-align: center;
+}
+
+#banner
+{
+	position: relative;
+	top: 65px;
+}
+
+.content 
+{ 
+	background: #ffffff;
+	color:#333333;
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+	width: 800px;
+	position: relative;
+	top: 85px;
+        z-index: 1;
+}
+
+.img 
+{
+	padding: 0;
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.img2 
+{
+	padding: 0;
+	float: right;
+}
+
+.img img, .img2 img
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a img
+{
+	border: 2px solid #0285af;
+}
+
+/* 
+ Here is the start of the header Information
+*/
+#top 
+{
+	font-size: 10pt;
+        padding: 0;
+	margin: 0;
+	height: 44px;
+	position: relative;
+        top: -25px;
+        left: 35px;
+	z-index: 1;
+        float: right;
+        width: 150px;
+}
+
+#top .rightlinks 
+{ 
+	float: right;
+	color: #0049b7;
+	padding: 15px 0 0 0;
+	font-size: 90%;
+}
+
+.rightlinks a 
+{ 
+	color: #0049b7;
+	text-decoration: none;
+}
+
+.rightlinks a:hover
+{
+	color: #4866ff;
+	text-decoration: none;
+}
+
+/*  Top Navigation */
+#menu 
+{
+	background: inherit;
+	width: 690px;
+	height: 38px;
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	position: relative;
+	top: -6px;
+        z-index: 2;
+}
+
+#menu ul 
+{ 
+	margin:0; 
+	list-style:none; 
+	padding: 5px 0 0 10px;
+}
+
+#menu a
+{ 
+	float:left; 
+	display:block; 
+	background: url(images/tab_bg.gif) repeat-x;
+	border: 1px solid #555555;
+	color:#333333; 
+	padding: 5px 5px 5px 5px;
+	text-decoration:none;        
+        margin-bottom: -3px;
+}
+
+#menu a:hover 
+{ 
+	float:left; 
+	display:block; 
+	background: #86ccff;
+	border: 1px solid #555555;
+	color:#333333; 
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+} 
+
+#menu a 
+{ 
+	float:none; 
+}
+
+#menu li 
+{ 
+	float:left; 
+	background:inherit; 
+	margin:2px; 
+	padding:0 0 0 0px;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: helvetica, arial, sans-serif;
+        position: relative;
+}
+
+#menu .activeTab
+{
+     border: 1px solid #555555;
+     border-top: 2px solid #ffa5ff;
+     border-bottom: none;
+}					
+
+#menu .activeTab a, #menu .activeTab a:hover
+{
+     border: none;
+}
+
+#paynowDiv
+{
+   font-size: 10pt;
+}
+
+/* The meat and potatoes*/
+#main 
+{ 
+	background: inherit;  
+	width: 100%; 
+	height: 100%;
+        float: left;
+	clear: left;
+	margin: 0px;
+	padding: 0px 10px 0px 10px;
+	color: #333333; 
+	text-align: left;
+	position: relative;
+	top: -50px;
+        border: 1px solid #555555;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	z-index: -1;
+}
+
+#main h1
+{
+	color: #64bbdd;
+	font: 24px Arial, sans-serif;
+	font-weight: bold;
+}
+
+h3 
+{  
+	font-size: 18px;
+        font-family: helvetica, arial, sans-serif;
+	margin: 2px 0 10px 0px; 
+	padding: 0; 
+	color: #000000; 
+	background: inherit;
+	font-weight: bold;
+	border-top: 2px solid gray;
+	border-bottom: 1px dashed black;
+}	
+
+#main h4
+{
+	font: 14px helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+#main #submenu
+{
+	border-bottom: 2px solid #999999;
+	font-size: smaller;
+	font-weight: bold;
+	line-height: 2.0em;
+	width: 75%;
+	color: #8a8a8a;
+}
+
+#main #submenu a
+{
+	color: #000000;
+	text-decoration: underline;
+}
+
+#main #submenu a:hover
+{
+	background: #000000;
+	color: #8d8d8d;
+}
+
+#sidebar
+{
+	width: 25%;
+        text-align: left;
+	float: right;
+}
+
+
+/* the footer info*/
+#footer 
+{ 
+        clear: both;
+	height: 45px;
+        width: 800px;
+	color: #b5b5b5; 
+	background:inherit;
+	border-top:1px dotted #888; 
+	font-size:90%; 
+	padding: 0; 
+	text-align: left; 
+}
+
+#footer .info 
+{ 
+	padding: 20px 0px 0px 5px; 
+}
+
+#footer .right 
+{ 
+	float:right; 
+	clear:right; 
+	text-align:right; 
+}
+
+#footer a 
+{ 
+	color: #d41010; 
+}
+
+
+
+/* Odds and ends*/
+
+p 
+{ 
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	padding: 0; 
+	color: #333333; 
+	background: inherit; 
+}
+
+strong
+{
+	color: #000000;
+}
+
+a 
+{ 
+	color:#0049b7 ;  
+	background: inherit; 
+	text-decoration:none; 
+}
+
+a:hover 
+{ 
+	color:#4866ff;
+	background: inherit; 
+	text-decoration:underline; 
+}
+
+.date 
+{ 
+	color: #8c8c8c;
+	background:inherit;
+	text-align: right; 
+	margin: 4px 0 5px 0; 
+	padding: 0.4em 0 0 0;
+}
+
+
+
+
+
+
+/* Tables */
+.row1
+{
+   background-color: #86bbff;									
+}
+
+.row2
+{
+   background-color: #7099ff;
+}
+
+th a
+{
+   cursor: pointer;
+}
